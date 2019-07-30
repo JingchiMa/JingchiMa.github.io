@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/JingchiMa/JingchiMa.github
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-try this [link](https://github.com/JingchiMa/JingchiMa.github.io/blob/master/papers/consensus%20on%20transactions%20commit)
+try this [link](./papers/consensusOnTransactionsCommit.md)
 
 ### Markdown
 
