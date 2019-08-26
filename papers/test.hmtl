@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>单击循环切换图片</title>
+<script>
+var i = 1;
+function nextImg(){
+i++;
+//步骤2：获取页面元素
+var next = document.getElementById("nImg");
+//步骤3：更改元素的src属性
+next.src = "img/"+i+".jpg";
+if(i==3){
+i=0;
+} 
+}
+</script>
+</head>
+<body>
+<div>
+<!--步骤1：绑定onclick事件-->
+<button onclick="nextImg()">下一张</button>
+<br />
+<!--需自己准备3张图片-->
+<img src="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjCyZCAkqHkAhXDoFsKHXTHBd8Qjhx6BAgBEAI&url=https%3A%2F%2Fwww.indiewire.com%2F2019%2F05%2Fhayao-miyazaki-spirited-away-open-china-18-years-later-1202145195%2F&psig=AOvVaw1cKvv9hvnULQkdZq28CFLy&ust=1566929659114465" id="nImg" width="600px" height="400px" />
+</div>
+</body>
+</html>
