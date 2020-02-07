@@ -1,0 +1,29 @@
+main:
+  - title: "Home"
+    url: /index.html
+  - title: "Projects"
+    url: /projects/overview/
+  - title: "Posts"
+    url: /posts/overview/
+  - title: "Algorithm and Data Structure"
+    url: /algorithm-datastructure/overview/
+  - title: "About"
+    url: /about/
+
+post_index:
+  - title: by tags
+    url: /posts/tags/
+  - title: by categories
+    url: /posts/categories/
+
+collection_index:
+  - title: Computer Science
+    children:
+      - title: Algorithms and Data Structures
+        url: /algorithm-datastructure/overview/
+  - title: Entertainment
+    children:
+      - title: Animes
+        url: /animes/overview/
+      - title: Video Games
+        url: /videogames/ovreview/
