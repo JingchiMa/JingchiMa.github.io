@@ -1,0 +1,14 @@
+---
+title: "Projects"
+permalink: /projects/overview/
+layout: single
+---
+<section class="taxonomy__section">
+  <div class="entries-{{ page.entries_layout | default: 'list' }}">
+    {% for project in site.projects %}
+      <h3 class="archive__item-title" itemprop="headline">
+        <a href="{{ project.url }}">{{ project.title }}</a>
+      </h3>
+    {% endfor %}
+  </div>
+</section>
