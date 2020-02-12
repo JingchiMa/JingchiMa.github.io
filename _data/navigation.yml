@@ -4,7 +4,7 @@ main:
   - title: "Projects"
     url: /projects/overview/
   - title: "Posts"
-    url: /posts/overview/
+    url: /_pages/posts/
   - title: "Algorithm and Data Structure"
     url: /algorithm-datastructure/overview/
   - title: "About"
