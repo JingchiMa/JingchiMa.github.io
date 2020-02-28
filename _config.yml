@@ -56,7 +56,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Jingchi Ma"
+  name   : "Who Am I"
   avatar : "/assets/images/wokung.jpeg"
   bio    : "Am I A Software Engineer?"
   # links:
