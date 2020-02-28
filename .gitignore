@@ -3,3 +3,5 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+collections/_projects/TSDBRollup.md
+assets/images/tsdb-rollup-schedule.png
